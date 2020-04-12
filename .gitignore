@@ -1,4 +1,44 @@
-# Project exclude paths
+# Java#
+*.class
+*.log
+/bin
+/logs
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# Eclipse #
+.classpath
+.project
+.externalToolBuilders/
+.metadata
+.settings
+.myeclipse
+
+
+# Maven #
+/target/
+
+
+# IntelliJ #
+*.iml
+*.ipr
+*.iws
+.idea
 /out/
-/.idea/
-JavaFX-demo.iml
+
+
+# NetBeans #
+nbproject
+build
+build.xml
+manifest.mf
+nb-configuration.xml
+
+
+# Mac #
+.DS_Store
+._*

@@ -1,4 +1,4 @@
-package start;
+package begin;
 
 import javafx.application.Application;
 import javafx.application.ConditionalFeature;
@@ -17,6 +17,10 @@ import javafx.scene.text.FontWeight;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
+/**
+ * @author livejq
+ * @since 2020/4/08
+ **/
 public class Example extends Application {
 
     private void initUI(Stage stage) {

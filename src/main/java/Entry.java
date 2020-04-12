@@ -1,12 +1,14 @@
-package start;
-
+import app.Chatroom01.Start;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import layout.AnchorPaneDemo;
 
+/**
+ * @author livejq
+ * @since 2020/4/10
+ **/
 public class Entry extends Application {
     public static void main(String[] args) {
-        Application.launch(AnchorPaneDemo.class, args);
+        Application.launch(Start.class, args);
     }
 
     @Override

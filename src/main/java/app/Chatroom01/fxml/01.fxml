@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane fx:controller="app.Chatroom01.ChatroomController" focusTraversable="true" prefHeight="700.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8.0.241"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <TextArea fx:id="message" layoutX="139.0" layoutY="618.0" prefHeight="82.0" prefWidth="381.0"
+              promptText="在此输入消息......" wrapText="true"/>
+    <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="140.0" prefHeight="619.0" prefWidth="380.0">
+        <FlowPane fx:id="messagesList" prefHeight="45.0" prefWidth="366.0"/>
+    </ScrollPane>
+    <ScrollPane hbarPolicy="NEVER" layoutX="-1.0" layoutY="-1.0" prefHeight="703.0" prefWidth="140.0"
+                style="-fx-background: rgb(39,43,45);">
+        <FlowPane fx:id="membersList" prefHeight="46.0" prefWidth="125.0"/>
+    </ScrollPane>
+</AnchorPane>

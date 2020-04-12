@@ -11,9 +11,17 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-
-public class AnchorPaneDemo extends Application {
-
+/**
+ * @author livejq
+ * @since 2020/4/11
+ **/
+public class AnchorPaneDemo02 extends Application {
+    /**
+     * @info notes
+     * isManaged -> 是否管理某个控件（位置被其他控件挤占）
+     * isVisible -> 是否可见（button不可被点击）
+     * isOpacity -> 0 ~ 1的透明度（仍然可以点击button）
+     **/
     public static boolean isManaged = true;
     public static boolean isVisible = true;
     public static double isOpacity = 0.0;
